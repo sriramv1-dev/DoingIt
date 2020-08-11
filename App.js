@@ -3,11 +3,16 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import WelcomeScreen from "./app/screens/WelcomeScreen";
 import ViewImageScreen from "./app/screens/ViewImageScreen";
+import LoginScreen from "./app/screens/LoginScreen";
 
 export default function App() {
-  // return <WelcomeScreen />;
-  return <ViewImageScreen />;
+  return <WelcomeScreen />;
+  // return <ViewImageScreen />;
 }
+
+// export default function App() {
+//   return <LoginScreen />;
+// }
 
 // export default function App() {
 //   return (

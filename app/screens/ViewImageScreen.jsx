@@ -43,7 +43,6 @@ const styles = StyleSheet.create({
   closeIcon: {
     width: 50,
     height: 50,
-    // backgroundColor: colors.primaryColor,
     position: "absolute",
     top: 20,
     left: 20,
