@@ -1,6 +1,5 @@
 import React from "react";
 import { View, Image, StyleSheet, SafeAreaView } from "react-native";
-
 import colors from "../config/colors";
 import AppText from "../components/AppText";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
@@ -12,14 +11,14 @@ const ViewImageScreen = (props) => {
         <MaterialCommunityIcons
           name="close-circle"
           size={40}
-          color={colors.primaryColor}
+          color={colors.primary}
         />
       </View>
       <View style={styles.deleteIcon}>
         <MaterialCommunityIcons
-          name="delete-forever"
+          name="trash-can-outline"
           size={40}
-          color={colors.secondaryColor}
+          color={colors.secondary}
         />
       </View>
 
@@ -41,13 +40,9 @@ const ViewImageScreen = (props) => {
 
 const styles = StyleSheet.create({
   closeIcon: {
-    width: 50,
-    height: 50,
     position: "absolute",
     top: 20,
     left: 20,
-    alignItems: "center",
-    justifyContent: "center",
   },
   container: {
     backgroundColor: colors.black,
@@ -62,14 +57,9 @@ const styles = StyleSheet.create({
     height: "50%",
   },
   deleteIcon: {
-    width: 50,
-    height: 50,
-    // backgroundColor: colors.secondaryColor,
     position: "absolute",
     top: 20,
     right: 20,
-    alignItems: "center",
-    justifyContent: "center",
   },
   image: {
     width: "100%",

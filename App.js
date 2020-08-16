@@ -4,11 +4,44 @@ import { StyleSheet, Text, View } from "react-native";
 import WelcomeScreen from "./app/screens/WelcomeScreen";
 import ViewImageScreen from "./app/screens/ViewImageScreen";
 import LoginScreen from "./app/screens/LoginScreen";
+import AppCard from "./app/components/AppCard";
+import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
+import MessagesScreen from "./app/screens/MessagesScreen";
+
+// export default function App() {
+//   return <WelcomeScreen />;
+//   // return <ViewImageScreen />;
+// }
+
+// export default function App() {
+//   return <ViewImageScreen />;
+// }
 
 export default function App() {
-  return <WelcomeScreen />;
-  // return <ViewImageScreen />;
+  return <MessagesScreen />;
 }
+
+// export default function App() {
+//   return <ListingDetailsScreen />;
+// }
+
+// export default function App() {
+//   return (
+//     <View
+//       style={{
+//         backgroundColor: "#f8f4f4",
+//         padding: 20,
+//         paddingTop: 100,
+//       }}
+//     >
+//       <AppCard
+//         title="Red jacket for sale"
+//         subTitle="$100"
+//         image={require("./app/assets/jacket.jpg")}
+//       />
+//     </View>
+//   );
+// }
 
 // export default function App() {
 //   return <LoginScreen />;
