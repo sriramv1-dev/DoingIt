@@ -7,6 +7,8 @@ import LoginScreen from "./app/screens/LoginScreen";
 import AppCard from "./app/components/AppCard";
 import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
 import MessagesScreen from "./app/screens/MessagesScreen";
+import AppIcon from "./app/components/AppIcon";
+import ListItem from "./app/components/ListItem";
 
 // export default function App() {
 //   return <WelcomeScreen />;
@@ -17,8 +19,23 @@ import MessagesScreen from "./app/screens/MessagesScreen";
 //   return <ViewImageScreen />;
 // }
 
+// export default function App() {
+//   return <MessagesScreen />;
+// }
 export default function App() {
-  return <MessagesScreen />;
+  return (
+    <ListItem
+      title="Sheldon Cooper"
+      ImageComponent={
+        <AppIcon
+          backgroundColor="black"
+          iconColor="cyan"
+          name="corn"
+          size={50}
+        />
+      }
+    />
+  );
 }
 
 // export default function App() {
