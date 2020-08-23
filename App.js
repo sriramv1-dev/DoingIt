@@ -9,6 +9,8 @@ import ListingDetailsScreen from "./app/screens/ListingDetailsScreen";
 import MessagesScreen from "./app/screens/MessagesScreen";
 import AppIcon from "./app/components/AppIcon";
 import ListItem from "./app/components/ListItem";
+import AccountScreen from "./app/screens/AccountScreen";
+import ListingsScreen from "./app/screens/ListingsScreen";
 
 // export default function App() {
 //   return <WelcomeScreen />;
@@ -22,21 +24,30 @@ import ListItem from "./app/components/ListItem";
 // export default function App() {
 //   return <MessagesScreen />;
 // }
+
+// export default function App() {
+//   return <AccountScreen />;
+// }
+
 export default function App() {
-  return (
-    <ListItem
-      title="Sheldon Cooper"
-      ImageComponent={
-        <AppIcon
-          backgroundColor="black"
-          iconColor="cyan"
-          name="corn"
-          size={50}
-        />
-      }
-    />
-  );
+  return <ListingsScreen />;
 }
+
+// export default function App() {
+//   return (
+//     <ListItem
+//       title="Sheldon Cooper"
+//       IconComponent={
+//         <AppIcon
+//           backgroundColor="black"
+//           iconColor="cyan"
+//           name="corn"
+//           size={50}
+//         />
+//       }
+//     />
+//   );
+// }
 
 // export default function App() {
 //   return <ListingDetailsScreen />;
